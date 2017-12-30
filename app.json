@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/index/search",
+    "pages/search/account/account",
+    "pages/search/set/set",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#70BFEA",
+    "navigationBarTitleText": "嗖搜嗖",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"img/index.png",
+        "selectedIconPath":"img/index-on.png"
+      },
+      {
+        "pagePath": "pages/search/index/search",
+        "text": "搜索",
+        "iconPath": "img/search.png",
+        "selectedIconPath": "img/search-on.png"
+      },
+      {
+        "pagePath": "pages/search/account/account",
+        "text": "个人中心",
+        "iconPath": "img/account.png",
+        "selectedIconPath": "img/account-on.png"
+      },
+      {
+        "pagePath": "pages/search/set/set",
+        "text": "设置",
+        "iconPath": "img/set.png",
+        "selectedIconPath": "img/set-on.png"
+      }
+    ],
+    "color":"#222",
+    "selectedColor":"#70BFEA",
+    "backgroundColor":"#fff"
+  },
+  "networkTimeout": {
+    "request": 10000
+  }
+}
