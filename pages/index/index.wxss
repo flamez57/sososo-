@@ -1,21 +1,20 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.so_btn {
+  background:#70BFEA;
+  color:#fff;
+  border-radius:20px;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.keywords {
+  width:80%;
 }
 
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+.keyword {
+  margin:10px 5px;
+  float:left;
+  color:#70BFEA;
+  width:auto;
+  border:1px solid #70BFEA;
+  padding:2px 5px;
+  border-radius:15px;
 }

@@ -4,8 +4,8 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '你好世界',
     userInfo: {},
+    historyKeyword: ["php", "java", "c++", "python", "java", "c++", "python"],
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
