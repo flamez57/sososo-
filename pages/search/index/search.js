@@ -6,6 +6,14 @@ Page({
   data: {
     motto: '搜索',
     userInfo: {},
+    searchList:[
+      { "img": "/img/index-on.png", "title": "测试", "description": "描述内容" },
+      { "img": "/img/index-on.png", "title": "原计划", "description": "这是个非常厉害的组织" },
+      { "img": "/img/index-on.png", "title": "洒洒水", "description": "这个组织里面都是大牛" },
+      { "img": "/img/index-on.png", "title": "测试", "description": "描述内容" },
+      { "img": "/img/index-on.png", "title": "原计划", "description": "这是个非常厉害的组织" },
+      { "img": "/img/index-on.png", "title": "洒洒水", "description": "这个组织里面都是大牛" }
+    ],
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },

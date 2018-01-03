@@ -1,4 +1,9 @@
 /**index.wxss**/
+textarea {
+  border:1px solid #70BFEA;
+  border-radius: 5px;
+  margin-bottom:5px;
+}
 .so_btn {
   background:#70BFEA;
   color:#fff;
