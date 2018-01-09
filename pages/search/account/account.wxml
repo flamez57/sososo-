@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<view class="acc_header">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称3 </button>
     <block wx:else>
@@ -7,7 +7,13 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="acc_one">
+  {{account.a}}
+  </view>
+  <view class="acc_two">
+  {{account.b}}
+  </view>
+  <view class="acc_three">
+  {{account.c}}
   </view>
 </view>

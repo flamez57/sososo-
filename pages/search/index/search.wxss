@@ -7,23 +7,36 @@
 }
 
 .section-list {
-  margin:4px;
+  float:left;
+  width:97%;
+  margin:1%;
   border:1px solid #70BFEA;
 }
 
 .list-img {
-  width:80px;
-  height:80px;
+  width:100px;
+  height:100px;
+}
+
+.code_img {
+  float:left;
+  width:100px;
+  height:100px;
 }
 
 .section-text {
-  
+  margin:3px;
+  overflow:hidden;
 }
 
 .title {
-
+  font-family:'楷体';
+  color:#70BFEA;
+  font-size:24px;
 }
 
 .description {
-
+  font-family:'微软雅黑';
+  color:#70BFEA;
+  font-size:16px;
 }

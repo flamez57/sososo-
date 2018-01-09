@@ -1,8 +1,15 @@
 /**index.wxss**/
+.acc_header {
+  height:280px;
+  border:1px solid #70BFEA;
+  background:#70BFEA;
+  border-radius: 0 0 300px 0;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-top:10px;
+  margin-left:30px;
 }
 
 .userinfo-avatar {
@@ -13,9 +20,54 @@
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #fff;
 }
 
-.usermotto {
-  margin-top: 200px;
+.acc_one {
+  width:70px;
+  height:70px;
+  align-content: center;
+  line-height: 70px;
+  border-radius:70px;
+  background:#fff;
+  position:fixed;
+  top:170px;
+  left:30px;
+  font-family: '楷体';
+  font-size:70px;
+  font-weight: bolder;
+  color:#70BFEA;
 }
+
+.acc_two {
+  width:70px;
+  height:70px;
+  align-content: center;
+  line-height: 70px;
+  border-radius:70px;
+  background:#fff;
+  position:fixed;
+  top:110px;
+  left:140px;
+  font-family: '楷体';
+  font-size:70px;
+  font-weight: bolder;
+  color:#70BFEA;
+}
+
+.acc_three {
+  width:70px;
+  height:70px;
+  align-content: center;
+  line-height: 70px;
+  border-radius:70px;
+  background:#fff;
+  position:fixed;
+  top:10px;
+  left:200px;
+  font-family: '楷体';
+  font-size:70px;
+  font-weight: bolder;
+  color:#70BFEA;
+}
+

@@ -8,7 +8,7 @@
 
 <template name="newList"> 
   <view class="section-list" bindtap="listClick" id="{{index}}"> 
-    <view> 
+    <view class="code_img"> 
       <image class="list-img" src="{{item.img}}"></image> 
     </view> 
     <view class="section-text"> 
