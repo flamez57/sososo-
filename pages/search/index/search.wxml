@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="section">
-  <input type="text" placeholder="php" confirm-type="search" auto-focus/>
+  <input type="text" placeholder="php" confirm-type="search" value="{{keyword}}" binginput="inputChange"/>
 </view>
 <block wx:for="{{searchList}}" wx:key="{{searchList}}"> 
   <template is="newList" data="{{index,item}}"/> 

@@ -2,11 +2,11 @@
 <view class="container">
   <view class="section">
     <form bindsubmit="bindFormSubmit">
-      <textarea placeholder="php" auto-focus />
+      <textarea placeholder="php" auto-focus name="keyword"/>
       <button form-type="submit" class="so_btn"> 嗖 搜 嗖 </button>
     </form>
   </view>
   <view class="keywords">
-    <view wx:for="{{historyKeyword}}" wx:key="{{historyKeyword}}" class="keyword">{{item}}</view> 
+    <navigator wx:for="{{historyKeyword}}" wx:key="{{historyKeyword}}" class="keyword" url="../search/index/search" open-type="switchTab" bindtap="tapName" data-keyword="{{item}}">{{item}}</navigator> 
   </view>
 </view>

@@ -48,7 +48,7 @@
   background:#fff;
   position:fixed;
   top:110px;
-  left:140px;
+  left:160px;
   font-family: '楷体';
   font-size:70px;
   font-weight: bolder;
@@ -64,10 +64,20 @@
   background:#fff;
   position:fixed;
   top:10px;
-  left:200px;
+  left:210px;
   font-family: '楷体';
   font-size:70px;
   font-weight: bolder;
   color:#70BFEA;
 }
 
+.menu {
+  height:50px;
+  line-height: 50px;
+  border-top:1px solid #70BFEA;
+  border-bottom: 1px solid #70BFEA;
+  margin-top:2px;
+  padding-left:15px;
+  font-size:32px;
+  color: #70BFEA;
+}

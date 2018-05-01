@@ -1,4 +1,8 @@
 //app.js
+const APP_ID = 'wxe62df9fd26713c30';//输入小程序appid  
+const APP_SECRET = 'ba9455935b10fa94eb111a6f9fe476d2';//输入小程序app_secret  
+var OPEN_ID = ''//储存获取到openid  
+var SESSION_KEY = ''//储存获取到session_key  
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -10,6 +14,22 @@ App({
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        // console.log(res.code);
+        wx.request({
+          //获取openid接口  
+          url: 'https://www.mysweet95.top/index.php?m=api&c=search&a=login',
+          data: {
+            appid: APP_ID,
+            secret: APP_SECRET,
+            js_code: res.code,
+            grant_type: 'authorization_code'
+          },
+          method: 'GET',
+          success: function (res) {
+            OPEN_ID = res.data.data.openid;//获取到的openid  
+            SESSION_KEY = res.data.data.session_key;//获取到session_key 
+          }
+        })
       }
     })
     // 获取用户信息

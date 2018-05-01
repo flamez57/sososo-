@@ -17,3 +17,9 @@
   {{account.c}}
   </view>
 </view>
+<view class="menu">
+  添加群管理
+</view>
+<view class="menu">
+  我拥有的群
+</view>
